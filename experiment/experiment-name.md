@@ -1,1 +1,1 @@
-## Experiment name
+## Free Vibration of Beam
