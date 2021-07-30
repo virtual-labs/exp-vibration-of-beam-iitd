@@ -17,7 +17,7 @@ A = Area (mm2)
 l = length of beam (m)
 
 
-| Sr. No      | End Conditions   | <img src="images/theory2.png" style="height: 120px;"> |
+| Sr. No      | End Conditions   | <img src="images/theory2.png" style="height: 95px;"> |
 | :---    |    :---       |   :---        |
 | 1       | Pinned-Pinned | &#955;_1  = &#928;;  &#955;_2  = 2&#928;;  &#955;_3  = 3&#928;   |
 | 2       |	Free-Free    | &#955;_1  = 4.7300;  &#955;_2  = 7.8532;  &#955;_3  = 10.9956      |
