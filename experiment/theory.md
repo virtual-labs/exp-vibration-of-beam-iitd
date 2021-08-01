@@ -4,27 +4,27 @@
 
 </strong>
 
-<img src="images/theory1.png" style="height: 120px;">
+<img src="images/theory1.png" style="height: 100px;">
 
 E = young's Modulus (MPa)
 
-I = Moment of Inertia (mm4)
+I = Moment of Inertia (mm<sup>4</sup>)
 
-&#961; = Density (kg/m3)
+&#961; = Density (kg/m<sup>3</sup>)
 
-A = Area (mm2)
+A = Area (mm<sup>2</sup>)
 
 l = length of beam (m)
 
 
-| Sr. No      | End Conditions   | <img src="images/theory2.png" style="height: 95px;"> |
+| Sr. No      | End Conditions   | <img src="images/theory2.png" style="height: 85px;"> |
 | :---    |    :---       |   :---        |
-| 1       | Pinned-Pinned | &#955;_1  = &#928;;  &#955;_2  = 2&#928;;  &#955;_3  = 3&#928;   |
-| 2       |	Free-Free    | &#955;_1  = 4.7300;  &#955;_2  = 7.8532;  &#955;_3  = 10.9956      |
-| 3       | Fixed-Fixed   | &#955;_1  = 4.7300;  &#955;_2  = 7.8532;  &#955;_3  = 10.9956     |
-| 4       | Fixed-Free    | &#955;_1  = 1.8751;  &#955;_2  = 4.6940;  &#955;_3  = 7.8547 (&#955; = 0 for rigid body mode)   |
-| 5       | Fixed-Pinned  | &#955;_1  = 3.9266;  &#955;_2  = 7.0685;  &#955;_3  = 10.2101      |
-| 6       | 	Pinned-Free  | &#955;_1  = 3.9266;  &#955;_2  = 7.0685;  &#955;_3  = 10.2101  (&#955; = 0 for rigid body mode)     |
+| 1       | Pinned-Pinned | &#955;<sub>1</sub>  = &#960;;  &#955;<sub>2</sub>  = 2&#960;;  &#955;<sub>3</sub>  = 3&#960;   |
+| 2       |	Free-Free    | &#955;<sub>1</sub>  = 4.7300;  &#955;<sub>2</sub>  = 7.8532;  &#955;<sub>3</sub>  = 10.9956      |
+| 3       | Fixed-Fixed   | &#955;<sub>1</sub>  = 4.7300;  &#955;<sub>2</sub>  = 7.8532;  &#955;<sub>3</sub>  = 10.9956     |
+| 4       | Fixed-Free    | &#955;<sub>1</sub>  = 1.8751;  &#955;<sub>2</sub>  = 4.6940;  &#955;<sub>3</sub>  = 7.8547 (&#955; = 0 for rigid body mode)   |
+| 5       | Fixed-Pinned  | &#955;<sub>1</sub>  = 3.9266;  &#955;<sub>2</sub>  = 7.0685;  &#955;<sub>3</sub>  = 10.2101      |
+| 6       | 	Pinned-Free  | &#955;<sub>1</sub>  = 3.9266;  &#955;<sub>2</sub>  = 7.0685;  &#955;<sub>3</sub>  = 10.2101  (&#955; = 0 for rigid body mode)     |
 <!-- Consider an infinitesimal element of the plate in polar coordinates as shown in Fig. 1.1. In this figure the radial moment M<sub>r</sub>, tangential moment M<sub>&#952;</sub>, twisting moments M<sub>r&#952;</sub> and M<sub>r</sub>, and the transverse shear forces Q<sub>r</sub> and Q<sub>&#952;</sub>, are shown on the positive and negative edges of the element.
 
 The equations of motion of the plate can be derived in polar coordinates by considering the
