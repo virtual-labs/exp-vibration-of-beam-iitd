@@ -1,1 +1,1 @@
-## Free Vibration of Beam
+## Free vibration of beam
