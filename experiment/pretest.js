@@ -90,22 +90,59 @@
 
 
      const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "1. The number of natural frequencies of a continuous system is", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "One", ///// Write the option 1 inside double quotes
+                b: "Infinite", ///// Write the option 2 inside double quotes
+                c: "Finite", ///// Write the option 1 inside double quotes
+                d: "can't say", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            correctAnswer: "d" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+        {
+            question: "2. Boundary Condition at the free end", ///// Write the question inside double quotes
+            answers: {
+                a: "Bending Moment = 0, Shear force equals the spring force", ///// Write the option 1 inside double quotes
+                b: "Deflection = 0, Slope = 0", ///// Write the option 2 inside double quotes
+                c: "Deflection = 0, Bending moment = 0", ///// Write the option 1 inside double quotes
+                d: "Bending moment = 0, Shear Force = 0", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+        {
+            question: "3. Boundary Condition at the fixed end", ///// Write the question inside double quotes
+            answers: {
+                a: "Bending Moment = 0, Shear force equals the spring force", ///// Write the option 1 inside double quotes
+                b: "Deflection = 0, Slope = 0", ///// Write the option 2 inside double quotes
+                c: "Deflection = 0, Bending moment = 0", ///// Write the option 1 inside double quotes
+                d: "Bending moment = 0, Shear Force = 0", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },
+
+        // {
+        //     question: "4. For Clamped, fixed, or built-in edge boundary condition the deflection and slope (normal to the boundary)", ///// Write the question inside double quotes
+        //     answers: {
+        //         a: "must be one", ///// Write the option 1 inside double quotes
+        //         b: "must be zero", ///// Write the option 2 inside double quotes
+        //         c: "must be two", ///// Write the option 1 inside double quotes
+        //         d: "must be five", ///// Write the option 2 inside double quotes
+        //     },
+        //     correctAnswer: "b" ///// Write the correct option inside double quotes
+        // },
+
+        // {
+        //     question: "5. For free edge boundary condition bending moment resultant and the effective shear force resultant on the edge?", ///// Write the question inside double quotes
+        //     answers: {
+        //         a: "must be one", ///// Write the option 1 inside double quotes
+        //         b: "must be five", ///// Write the option 2 inside double quotes
+        //         c: "must be two", ///// Write the option 1 inside double quotes
+        //         d: "must be zero", ///// Write the option 2 inside double quotes
+        //     },
+        //     correctAnswer: "d" ///// Write the correct option inside double quotes
+        // },
 
 
 
