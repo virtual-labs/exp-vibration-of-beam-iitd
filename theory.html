@@ -1,0 +1,584 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'IITD',
+        'phase': 'Testing',
+        'expName': 'FREE VIBRATION OF BEAM',
+        'expShortName': 'vibration-of-beam'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="vibration-of-beam">
+    	<meta name="developer-institute" content="IITD">
+    	<meta name="learning-unit" content="FREE VIBRATION OF BEAM">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.6-b/css/style.min.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+  </head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="http://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center">
+            <ul class="navbar-nav ml-auto text-center d-flex flex-md-row">
+              <li class="nav-item px-2 m-1">
+                <a href="http://vlab.co.in">HOME</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="http://vlab.co.in/participating-institutes">PARTNERS</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="http://vlab.co.in/contact-us">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+		  <div class="row py-4 px-4 breadcrumbs">
+		  	<div class="title is-4 tools">Tools</div>
+		  	<span class="mx-2">
+		  		<i aria-hidden="true" class="fa fa-angle-right"></i>
+		  	</span>
+		  	<a href="performance-report.html" target="_blank">
+		  		<button class="v-button">Performance Tool</button>
+		  	</a>
+		  </div>
+	  </div>
+          <div class="flex-column">
+            <div id="plugin-bug-report"></div>
+            <div id="plugin-rating"></div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="http://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="free-vibration-of-beam">Free vibration of beam</h2>
+          
+            </div>
+              <h3 id="experimental-methodology">EXPERIMENTAL METHODOLOGY</h3>
+          <p><strong>n<sup>th</sup>Natural frequency</strong></p><strong>
+          </strong>
+          
+          <img src="images/theory1.png" style="height: 100px;">
+          
+          <p>E = young's Modulus (MPa)</p>
+          <p>I = Moment of Inertia (mm<sup>4</sup>)</p>
+          <p>ρ = Density (kg/m<sup>3</sup>)</p>
+          <p>A = Area (mm<sup>2</sup>)</p>
+          <p>l = length of beam (m)</p>
+          <table>
+          <thead>
+          <tr>
+          <th align="left">Sr. No</th>
+          <th align="left">End Conditions</th>
+          <th align="left"><img src="images/theory2.png" style="height: 85px;"></th>
+          </tr>
+          </thead>
+          <tbody><tr>
+          <td align="left">1</td>
+          <td align="left">Pinned-Pinned</td>
+          <td align="left">λ<sub>1</sub>  = π;  λ<sub>2</sub>  = 2π;  λ<sub>3</sub>  = 3π</td>
+          </tr>
+          <tr>
+          <td align="left">2</td>
+          <td align="left">Free-Free</td>
+          <td align="left">λ<sub>1</sub>  = 4.7300;  λ<sub>2</sub>  = 7.8532;  λ<sub>3</sub>  = 10.9956</td>
+          </tr>
+          <tr>
+          <td align="left">3</td>
+          <td align="left">Fixed-Fixed</td>
+          <td align="left">λ<sub>1</sub>  = 4.7300;  λ<sub>2</sub>  = 7.8532;  λ<sub>3</sub>  = 10.9956</td>
+          </tr>
+          <tr>
+          <td align="left">4</td>
+          <td align="left">Fixed-Free</td>
+          <td align="left">λ<sub>1</sub>  = 1.8751;  λ<sub>2</sub>  = 4.6940;  λ<sub>3</sub>  = 7.8547 (λ = 0 for rigid body mode)</td>
+          </tr>
+          <tr>
+          <td align="left">5</td>
+          <td align="left">Fixed-Pinned</td>
+          <td align="left">λ<sub>1</sub>  = 3.9266;  λ<sub>2</sub>  = 7.0685;  λ<sub>3</sub>  = 10.2101</td>
+          </tr>
+          <tr>
+          <td align="left">6</td>
+          <td align="left">Pinned-Free</td>
+          <td align="left">λ<sub>1</sub>  = 3.9266;  λ<sub>2</sub>  = 7.0685;  λ<sub>3</sub>  = 10.2101  (λ = 0 for rigid body mode)</td>
+          </tr>
+          </tbody></table>
+          <!-- Consider an infinitesimal element of the plate in polar coordinates as shown in Fig. 1.1. In this figure the radial moment M<sub>r</sub>, tangential moment M<sub>&#952;</sub>, twisting moments M<sub>r&#952;</sub> and M<sub>r</sub>, and the transverse shear forces Q<sub>r</sub> and Q<sub>&#952;</sub>, are shown on the positive and negative edges of the element.
+          
+          The equations of motion of the plate can be derived in polar coordinates by considering the
+          dynamic equilibrium of the element shown in Fig. 1.1 as follows: Moment equilibrium about the
+          tangential (&#952;) direction:
+          
+          <img src="images/th1.png" draggable="false">
+          
+          <img src="images/th1.png" draggable="false">
+          
+          Moment equilibrium about the radial (R) direction:
+          
+          <img src="images/th3.png" draggable="false">
+          
+          Force equilibrium in the z direction:
+          
+          <img src="images/th4.png" draggable="false">
+          
+          Equations (1.1)-(1.3) can be combined to derive a single equation of motion in terms of the
+          moment resultants M<sub>r</sub>, M<sub>&#952;</sub>, and M<sub>r&#952;</sub>,By substituting the moment resultants in terms of the
+          transverse displacement w, the final equation of motion, shown in Eq. (1.16), can be obtained.
+          
+          
+          The coordinate transformation technique can also be used to derive the equation of motion in polar coordinates from the corresponding equation in Cartesian coordinates, as indicated below.
+          
+          <strong>
+          
+          1.2 Transformation of Relations
+          
+          </strong>
+          
+          The Cartesian and polar coordinates of a point P are related as (Fig. 1.2)
+          
+          <img src="images/th5.png" draggable="false">
+          
+          <img src="images/th6.png" draggable="false">
+          
+          From Eqs. (1.5) and (1.6), we obtain
+          
+          <img src="images/th7.png" draggable="false">
+          
+          Similarly, Eqs. (1.6) and (1.4) give
+          
+          <img src="images/th8.png" draggable="false">
+          
+          Since the deflection of the plate w is a function of r and &#952;, the chain rule of differentiation yields
+          
+          <img src="images/th9.png" draggable="false">
+          
+          For the expressions &#8706;<sup>2</sup>w &#8725; &#8706;x<sup>2</sup>, &#8706;<sup>2</sup>
+          w &#8725; &#8706;x&#8706;y , and &#8706;
+          <sup>2</sup>w &#8725; &#8706;y<sup>2</sup>, the operations &#8706;/&#8706;x and &#8706;/&#8706;y of
+          Eqs. (1.9) and (1.10) are repeated to obtain
+          
+          <img src="images/th10.png" draggable="false">
+          
+          By adding Eqs. (1.11) and (1.12), we obtain
+          
+          <img src="images/th11.png" draggable="false">
+          
+          By repeating the operation &#8711;<sup>2</sup>
+          twice, we can express
+          
+          <img src="images/th12.png" draggable="false">
+          
+          Using Eqs. (1.9), (1.10), and (1.11) in the equation of motion for the forced transverse vibration
+          of a circular plate can be expressed as
+          
+          <img src="images/th13.png" draggable="false">
+          
+          1.3 Moment and Force Resultants
+          Using the transformation procedure, the moment resultant - transverse displacement relations can
+          be obtained as:
+          
+          <img src="images/th14.png" draggable="false">
+          
+          Similarly, the shear force resultants can be expressed as
+          
+          <img src="images/th15.png" draggable="false">
+          
+          The effective transverse shear forces can be written as
+          
+          <img src="images/th16.png" draggable="false">
+          
+          Note that the Laplacian operator appearing in Eqs. (1.20) - (1.23) is given in polar coordinates by
+          Eq. (1.14).
+          1.4 Boundary Conditions
+          1. Clamped, fixed, or built-in edge. The deflection and slope (normal to the boundary) must be
+          zero:
+          
+          <img src="images/th17.png" draggable="false">
+          
+          where r denotes the radial (normal) direction to the boundary.
+          
+          2. Simply supported edge. The deflection and bending moment resultant must be zero:
+          
+          <img src="images/th18.png" draggable="false">
+          
+          3. Free edge. The bending moment resultant and the effective shear force resultant on the edge must be zero:
+          
+          <img src="images/th19.png" draggable="false">
+          
+          4. Edge supported on elastic springs. If the edge is supported on linear and torsional springs all
+          around as shown in Fig. 1.3, the boundary conditions can be stated as follows:
+          
+          <img src="images/th20.png" draggable="false">
+          
+          <img src="images/th21.png" draggable="false"> -->
+          <!-- 
+          <img src="images/t1.png"><br>
+          <img src="images/t2.png"><br>
+          <img src="images/t3.png"><br>
+          
+          where &#8733;(x,t) represents the angle between the tangent to the string at x and the x-axis, as shown in Figure 2. Dividing both sides of (1.1) by &#8710;x and taking the limit &#8710;x &#8594;0 yields
+          
+          <img src="images/t4.png"><br>
+          
+          where [.]<sub>,x</sub> represents partial derivative with respect to x. From geometry, one can write
+          
+          <img src="images/t5.png"><br>
+          
+          Substituting (1.3) in (1.2), and assuming w<sub>,x</sub> &#8810; 1, yields on simplification
+          
+          <img src="images/t6.png"><br>
+          
+          Therefore, when n(x,t) &#8801; 0, equation (1.4) implies that the tension T (x,t) is a constant. On the other hand, for a hanging string, shown in Figure 3, one has n(x,t) = &#961;A(x)g, where &#961; is the density, A is the area of cross-section, and g is the acceleration due to gravity. Then, using the boundary condition of zero tension at the free end, i.e., T (l,t) &#8801; 0 (for constant &#961;A), (1.4) yields T (x,t) = &#961;Ag (l - x). in general, the tension in a string may also depend on time. However, in the following discussions, it will be assumed to depend at most on x.
+          
+          <img src="images/t7.png"><br>
+          
+          Figure 3. Schematic representation of a hanging string.
+          Now, consider the transverse dynamics of the string element shown in Figure 1. The equation of motion of the small element in the transverse direction can be written from Newton’s second law of motion as
+          
+          <img src="images/t8.png"><br>
+          
+          where &#8710;m is the mass of the element, &#952; &#8712;[0,1], and (.)<sub>,tt</sub> indicates double partial differentiation with respect to time. Again assuming  w<sub>,x</sub>.&#8810;1 one can write sin&#8733;  &#8776; tan&#8733; =  w<sub>,x</sub><sup>.</sup> Further, &#8710;m = &#961;A(x)&#8710;s. Using these expressions in (1.5) and dividing by &#8710;x on both sides, one can write after taking the limit &#8710;x &#8594; 0
+          
+          <img src="images/t9.png"><br>
+          
+          where, based on the previous considerations, we have assumed ds/dx  &#8776; 1. The linear partial differential equation (1.6), along with (1.4), represents the dynamics of a taut string. When the external force is not distributed but a concentrated force acting at, say x = a, the forcing function on the right hand side of (1.6) can be written using the Dirac delta function as
+          
+          <img src="images/t10.png"><br>
+          
+          where f(t)is the time-varying force, and  &#948;(.) represents the Dirac delta function.
+          An important particular form of (1.6) is obtained for p(x,t)  &#8801; 0, and T and &#961;A not depending on x. We can rewrite (1.6) as
+          
+          <img src="images/t11.png"><br>
+          
+          where  c=&#8730;(T/&#961;A)  is a constant having the dimension of speed. This represents the unforced transverse dynamics of a uniformly tensioned string.<br> The hyperbolic partial differential equation (1.8) is known as the linear one-dimensional wave equation, and c is known as the wave speed. This implies that a disturbance created at any point on the string propagates with a speed c. It should be clear that the wave speed c is distinct from the transverse material velocity (i.e., the velocity of the particles of the string) which is given by w<sub>,t</sub> (x,t)<br><br>
+          The complete solution of the second-order partial differential equation (1.6) (or (1.8)) requires specification of two boundary conditions, and two initial conditions. For example, for a taut string shown in Figure 1, the appropriate boundary conditions are w (0,t)  &#8801; 0 and w (l,t)  &#8801; 0.<br> For the case of a hanging string, the boundary conditions are w (0,t)  &#8801; 0 and w (l,t) is finite.<br> The initial conditions are usually specified in terms of the initial shape of the string, and initial velocity of the string, i.e., in the forms w(x,0) = w<sub>0</sub> (x),and w,t(x,0) = v<sub>0</sub> (x), respectively.<br>
+          
+          <a href="images/infinitecomplete.pdf" target="_blank">Infinite Complete</a>
+          
+          <a href="images/infinitereverse.pdf" target="_blank">Infinite Reverse</a> -->
+          
+          </div>
+        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="http://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="http://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fa fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fa fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fa fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fa fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+
+      <script src="./assets/js/toggleSidebar.js"></script>
+      
+  
+
+<script type="module" src="https://vjspranav.github.io/vleads-bug-report/client/app.js"></script></body></html>
