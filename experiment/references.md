@@ -1,2 +1,2 @@
-1.	Data Required
+1.	Fundamentals of Vibration, Leonard Meirovitch, McGrawHill
 
